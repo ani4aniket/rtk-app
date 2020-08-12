@@ -117,7 +117,7 @@ const App = function () {
     <div className="App">
       <div className="App__counter">Todos Updated Count: {editedCount}</div>
       <div className="App__header">
-        <h1>Todo App: Redux</h1>
+        <h1>Todo App: Redux vs RTK</h1>
         <form onSubmit={handleCreateNewTodo}>
           <label htmlFor="new-todo">Add new:</label>
           <input
